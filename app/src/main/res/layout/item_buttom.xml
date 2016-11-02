@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="42sp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="20dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/daren"
+        android:layout_marginLeft="15dp"
+        android:layout_height="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_marginLeft="5dp"
+        android:drawablePadding="10dp"
+        android:textColor="@color/color_tv_hui"
+        android:text="热门达人"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/color_tv_hui"
+        android:text="更多>"
+        />
+
+</RelativeLayout>

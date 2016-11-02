@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_bg_hui">#F5F5F5</color>
+
+    <color name="color_tv_hui">#656565</color>
+    <color name="color_tv_hui_2">#959595</color>
+
+    <color name="color_tv_line">#959595</color>
+
+    <color name="color_tv_biaoqian_lan">#10c0ec</color>
+    <color name="color_tv_biaoqian_lv">#50c24e</color>
+    <color name="color_tv_biaoqian_e">#10d3af</color>
+
+    <color name="color_top_text_blue">#0f88eb</color>
+</resources>
