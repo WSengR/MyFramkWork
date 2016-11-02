@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sunrun.sunrunframwork">
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+>
+        <!-- 图片选择 -->
+        <activity
+            android:name=".uibase.PhotoSelActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/lucency_Act" >
+        </activity>
+        <!-- 图片多选页面 -->
+        <activity
+            android:name=".weight.wq.imageloader.MulitImageAct"
+            android:screenOrientation="portrait" >
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        
+    <dimen name="lab_top_left_buttom_padding">15dp</dimen>
+    <dimen name="personcenter_top_buttom_padding">14dp</dimen>
+    <dimen name="login_Left_right_padding">30dp</dimen>
+    <dimen name="titlebar_height">45dp</dimen>
+    <dimen name="titlebar_textSize">18sp</dimen>
+    <dimen name="textsize_default">14sp</dimen>
+    <dimen name="textsize_16">16sp</dimen>
+    <dimen name="textsize_account">26sp</dimen>
+    <dimen name="textsize_total">24sp</dimen>
+    <dimen name="textsize_30">30sp</dimen>
+    <dimen name="view_gap_4">4dp</dimen>
+    <dimen name="view_gap">8dp</dimen>
+    <dimen name="view_gap2">10dp</dimen>
+    <dimen name="lay_top_24">24dp</dimen>
+    <dimen name="lay_left_right_50">50dp</dimen>
+    <dimen name="lay_left_right_padding">15dp</dimen>
+    <dimen name="lay_left_right_padding_20">20dp</dimen>
+    <dimen name="lay_left_right_padding_35">35dp</dimen>
+    <dimen name="lay_left_right_padding_30">30dp</dimen>
+    <dimen name="item_height_default">45dp</dimen>
+    <dimen name="me_item_height_default">55dp</dimen>
+    <dimen name="status_height">0dp</dimen>
+    <dimen name="disc">246dp</dimen>
+    <dimen name="avatar">170dp</dimen>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+    
+</resources>

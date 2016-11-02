@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selec_list_item"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="44dp" >
+
+        <TextView
+            android:id="@+id/paixu_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="left|center"
+            android:text="综合排序" />
+
+        <ImageView
+            android:id="@+id/paixu_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_seleted"
+            android:gravity="left|center"
+            android:padding="7dp" />
+    </RelativeLayout>
+
+    <View style="@style/limit_line" android:id="@+id/limiteLine"/>
+
+</LinearLayout>
