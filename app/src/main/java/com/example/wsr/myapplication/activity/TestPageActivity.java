@@ -58,6 +58,7 @@ public class TestPageActivity extends PagingActivity {
     public BaseAdapter getAdapter(List mData) {
         RedAdapter redAdapter = new RedAdapter(TestPageActivity.this, RedBean.getData().getInfo().getLable_result());
         return redAdapter;
+
     }
 
 }
