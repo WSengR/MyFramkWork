@@ -420,6 +420,7 @@ public class UIUtils {
     public static int sp2px(DisplayMetrics metrics, float spValue) {
         final float fontScale = metrics.scaledDensity;
         return (int) (spValue * fontScale + 0.5f);
+
     }
 
 }
