@@ -9,6 +9,7 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
@@ -361,6 +362,64 @@ public class UIUtils {
     public static int[] getBitmapWH(Bitmap bitmap) {
         return new int[]
                 { bitmap.getWidth(), bitmap.getHeight() };
+    }
+
+    /*******************************   像素转换     ************************************/
+
+    /**
+     * 将px值转换为dip或dp值，保证尺寸大小不变
+     *
+     * @param pxValue
+     * @param scale   （DisplayMetrics类中属性density）
+     * @return
+     */
+    public static int px2dip(DisplayMetrics metrics, float pxValue) {
+        final float scale = metrics.density;
+        return (int) (pxValue / scale + 0.5f);
+    }
+
+    /**
+     * 将dip或dp值转换为px值，保证尺寸大小不变
+     *
+     * @param dipValue
+     * @param scale    （DisplayMetrics类中属性density）
+     * @return
+     */
+    public static int dip2px(DisplayMetrics metrics, float dipValue) {
+        final float scale = metrics.density;
+        return (int) (dipValue * scale + 0.5f);
+    }
+
+    /**
+     * 将dip或dp值转换为px值，保证尺寸大小不变
+     */
+    public static int dip2px(Context context,int dipValue) {
+        final float scale = context.getResources().getDisplayMetrics().density;
+        return (int) (dipValue * scale + 0.5f);
+    }
+
+    /**
+     * 将px值转换为sp值，保证文字大小不变
+     *
+     * @param pxValue
+     * @param fontScale （DisplayMetrics类中属性scaledDensity）
+     * @return
+     */
+    public static int px2sp(DisplayMetrics metrics, float pxValue) {
+        final float fontScale = metrics.scaledDensity;
+        return (int) (pxValue / fontScale + 0.5f);
+    }
+
+    /**
+     * 将sp值转换为px值，保证文字大小不变
+     *
+     * @param spValue
+     * @param fontScale （DisplayMetrics类中属性scaledDensity）
+     * @return
+     */
+    public static int sp2px(DisplayMetrics metrics, float spValue) {
+        final float fontScale = metrics.scaledDensity;
+        return (int) (spValue * fontScale + 0.5f);
     }
 
 }

@@ -89,22 +89,21 @@
         <attr name="ptrDrawableTop" format="reference" />
         <attr name="ptrDrawableBottom" format="reference" />
     </declare-styleable>
-    <declare-styleable name="RoundProgressBar">  
-        <attr name="roundColor" format="color"/>
-        <attr name="roundProgressColor" format="color"/>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
         <attr name="roundWidth" format="dimension"></attr>
-        <attr name="textColor" format="color" />  
-        <attr name="textSize" format="dimension" /> 
-        <attr name="max" format="integer"></attr> 
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="max" format="integer"></attr>
         <attr name="textIsDisplayable" format="boolean"></attr>
         <attr name="style">
             <enum name="STROKE" value="0"></enum>
             <enum name="FILL" value="1"></enum>
         </attr>
-    </declare-styleable> 
-    
-    
-    
+    </declare-styleable>
+
+
     <!-- 侧滑菜单 -->
     <declare-styleable name="SlidingMenu">
         <attr name="mode">
@@ -130,5 +129,16 @@
         <attr name="fadeDegree" format="float" />
         <attr name="selectorEnabled" format="boolean" />
         <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
+
+
+    <!-- BaseTitle-->
+    <declare-styleable name="BaseTitleLayoutView">
+        <attr name="TitlesLeftIcon" format="reference" />
+        <attr name="TitlesRightIcon" format="reference" />
+        <attr name="TitlesRightTVText" format="string" />
+        <attr name="TitlesLeftTVText" format="string" />
+        <attr name="TitlesText" format="string" />
+        <attr name="TitlesRightIconIsShow" format="boolean" />
     </declare-styleable>
 </resources>
