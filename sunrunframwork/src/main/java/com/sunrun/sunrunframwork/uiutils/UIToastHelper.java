@@ -4,7 +4,7 @@ import android.content.Context;
 import android.widget.Toast;
 
 
-public class ToastHelper {
+public class UIToastHelper {
 	private static Toast mToast;
 
 	public static void showToast(Context context, String msg, int duration) {

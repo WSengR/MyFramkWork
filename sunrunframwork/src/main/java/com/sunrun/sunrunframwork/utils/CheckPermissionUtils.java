@@ -3,7 +3,7 @@ package com.sunrun.sunrunframwork.utils;
 import android.content.Context;
 import android.content.pm.PackageManager;
 
-import com.sunrun.sunrunframwork.uiutils.ToastHelper;
+import com.sunrun.sunrunframwork.uiutils.UIToastHelper;
 
 
 /**
@@ -15,7 +15,7 @@ public class CheckPermissionUtils {
     public static boolean checkVideoPermission(Context context) {
         if (!checkPermission(context, "android.permission.CAMERA") &&
                 !checkPermission(context, "android.permission.RECORD_AUDIO")) {
-            ToastHelper.showToast(context,"请打开拍照权限");
+            UIToastHelper.showToast(context, "请打开拍照权限");
             return false;
         }
         if (!checkPermission(context, "android.permission.CAMERA")) {

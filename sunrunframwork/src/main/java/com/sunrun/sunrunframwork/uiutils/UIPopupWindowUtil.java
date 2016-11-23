@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class MyPopupWindowUtil {
+public class UIPopupWindowUtil {
 //
 //    private static MyPopupWindowUtil myPopupWindowUtil;
 //    private PopupWindow popupWindow;
