@@ -16,6 +16,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+
 }
 
 dependencies {
@@ -27,5 +29,10 @@ dependencies {
     compile 'com.android.support:support-v4:23.2.1'
     compile 'com.android.support:appcompat-v7:23.2.1'
     compile 'com.google.code.gson:gson:2.6.2'
-
+    compile project(':sharesdkutils')
+    compile files('libs/libammsdk.jar')
+    compile files('libs/alipaySdk-20160516.jar')
+    compile files('libs/commons-codec-1.4.jar')
+    compile files('libs/commons-httpclient-3.0.1.jar')
+    compile files('libs/httpclient-4.5.2.jar')
 }
