@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shap_btn_selected" android:state_selected="true" />
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#Fec602" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#e46702" />
+            <corners android:radius="5dp" />
+        </shape>
+
+    </item>
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#bbbbbb" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#fe7302" />
+            <stroke android:width="1dp" android:color="#bbbbbb" />
+            <corners android:radius="5dp" />
+        </shape>
+
+    </item>
+    <!--注意这里的顺序  Button是从上往下开始匹配-->
+</selector>

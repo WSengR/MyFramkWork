@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 
 import com.example.wsr.myapplication.activity.MyActivity;
+import com.example.wsr.myapplication.activity.TestExpendListView;
+import com.example.wsr.myapplication.activity.TestGifActivity;
 import com.example.wsr.myapplication.activity.TestPageActivity;
 
 /**
@@ -25,6 +27,19 @@ public class StartIntent {
 
     public static void startTestPageActivity(Activity activity) {
         Intent intent = new Intent(activity, TestPageActivity.class);
+        activity.startActivity(intent);
+    }
+    public static void startTestExpendListView(Activity activity) {
+        Intent intent = new Intent(activity, TestExpendListView.class);
+        activity.startActivity(intent);
+    }
+    public static void startTestGifActivity(Activity activity) {
+        Intent intent = new Intent(activity, TestGifActivity.class);
+        activity.startActivity(intent);
+    }
+
+    public static void startActivity(Activity activity,Class otherActivity) {
+        Intent intent = new Intent(activity, otherActivity);
         activity.startActivity(intent);
     }
 }

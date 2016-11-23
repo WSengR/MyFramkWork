@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#fff" android:state_selected="true"/>
+    <item android:color="#FFF" android:state_checked="true"/>
+    <item android:color="#FFF" android:state_enabled="false"/>
+    <item android:color="#FFF"/>
+    <!--注意这里的顺序  Button是从上往下开始匹配-->
+</selector>

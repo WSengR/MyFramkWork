@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="@dimen/x525"
+        android:layout_height="@dimen/x525"
+        android:layout_gravity="center"
+        android:background="@drawable/shap_diagle_gradle_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y230"
+            android:background="@drawable/bg_diagle_gradle"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正在评分中"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/y62"
+            android:gravity="center_horizontal">
+
+            <View
+                android:layout_width="@dimen/x450"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/y21"
+                android:background="#e91b7d" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <com.example.wsr.myapplication.view.GradlePrassView
+                    android:id="@+id/gpView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <com.example.wsr.myapplication.view.GradlePrassView
+                    android:id="@+id/gpView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x60" />
+
+
+                <com.example.wsr.myapplication.view.GradlePrassView
+                    android:id="@+id/gpView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x60" />
+
+
+                <com.example.wsr.myapplication.view.GradlePrassView
+                    android:id="@+id/gpView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x60" />
+
+
+                <com.example.wsr.myapplication.view.GradlePrassView
+                    android:id="@+id/gpView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x60" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

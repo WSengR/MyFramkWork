@@ -16,4 +16,9 @@
     <color name="color_tv_biaoqian_e">#10d3af</color>
 
     <color name="color_top_text_blue">#0f88eb</color>
+
+
+
+    <color name="loading_backgroup">#2a80b9</color>
+    <color name="loading_color">#ffffff</color>
 </resources>

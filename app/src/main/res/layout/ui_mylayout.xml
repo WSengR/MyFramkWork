@@ -2,20 +2,116 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="10dp">
 
     <TextView
         android:id="@+id/tv_show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:text="测试网络请求"
         android:textSize="28sp"
-        android:textStyle="bold"
-        android:text="测试网络请求" />
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/iv_icon"
-        android:src="@drawable/ic_seleted"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_seleted" />
+
+
+    <include layout="@layout/lay_gradle_pragress"></include>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.wsr.myapplication.view.GradlePrassView
+            android:id="@+id/gpView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x41" />
+
+        <com.example.wsr.myapplication.view.GradlePrassView
+            android:id="@+id/gpView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x41" />
+
+
+        <com.example.wsr.myapplication.view.GradlePrassView
+            android:id="@+id/gpView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x41" />
+
+
+        <com.example.wsr.myapplication.view.GradlePrassView
+            android:id="@+id/gpView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x41" />
+
+
+        <com.example.wsr.myapplication.view.GradlePrassView
+            android:id="@+id/gpView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x41" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_test1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="默认"
+            android:textColor="@drawable/bg_btn_main_2_text"
+            android:background="@drawable/bg_btn_main_2"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/btn_test2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择"
+            android:textColor="@drawable/bg_btn_main_2_text"
+            android:background="@drawable/bg_btn_main_2"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/btn_test3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不可用"
+            android:textColor="@drawable/bg_btn_main_2_text"
+            android:background="@drawable/bg_btn_main_2"
+            android:enabled="false"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_test4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不可用"
+            android:textColor="@drawable/bg_btn_main_1_text"
+            android:background="@drawable/bg_btn_main_1"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/btn_test5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不可用"
+            android:enabled="false"
+            android:textColor="@drawable/bg_btn_main_1_text"
+            android:background="@drawable/bg_btn_main_1"
+            android:textSize="14sp" />
+    </LinearLayout>
+
 </LinearLayout>

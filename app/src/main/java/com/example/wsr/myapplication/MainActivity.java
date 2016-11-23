@@ -130,8 +130,11 @@ public class MainActivity extends Activity {
                 StartIntent.startMyActivity(this);
                 break;
             case R.id.iv_sousuo:
+                StartIntent.startTestExpendListView(this);
                 break;
             case R.id.image:
+                StartIntent.startTestGifActivity(this);
+
                 break;
         }
     }
